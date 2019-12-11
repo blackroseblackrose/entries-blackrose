@@ -1,0 +1,92 @@
+
+MonDKP_DB = {
+	["MinBidBySlot"] = {
+		["Other"] = 70,
+		["OneHanded"] = 70,
+		["Bracers"] = 70,
+		["Neck"] = 70,
+		["Belt"] = 70,
+		["Hands"] = 70,
+		["Boots"] = 70,
+		["Ring"] = 70,
+		["Cloak"] = 70,
+		["Head"] = 70,
+		["Trinket"] = 70,
+		["Chest"] = 70,
+		["OffHand"] = 70,
+		["Range"] = 70,
+		["TwoHanded"] = 70,
+		["Shoulders"] = 70,
+		["Legs"] = 70,
+	},
+	["raiders"] = {
+	},
+	["DKPBonus"] = {
+		["IncStandby"] = false,
+		["IntervalBonus"] = 15,
+		["CompletionBonus"] = 10,
+		["OnTimeBonus"] = 15,
+		["UnexcusedAbsence"] = -25,
+		["NewBossKillBonus"] = 10,
+		["BossKillBonus"] = 5,
+		["GiveRaidStart"] = false,
+		["DecayPercentage"] = 20,
+		["BidTimer"] = 30,
+	},
+	["bossargs"] = {
+		["CurrentRaidZone"] = "Molten Core",
+		["LastKilledBoss"] = "Lucifron",
+		["RecentZones"] = {
+		},
+		["LastKilledNPC"] = {
+		},
+	},
+	["modes"] = {
+		["rolls"] = {
+			["min"] = 1,
+			["AddToMax"] = 0,
+			["max"] = 100,
+			["UsePerc"] = false,
+		},
+		["ZeroSumBidType"] = "Static",
+		["channels"] = {
+			["raid"] = true,
+			["whisper"] = true,
+			["guild"] = true,
+		},
+		["increment"] = 60,
+		["rounding"] = 0,
+		["AddToNegative"] = false,
+		["costvalue"] = "Integer",
+		["ZeroSumBank"] = {
+			["balance"] = 0,
+		},
+		["mode"] = "Minimum Bid Values",
+		["AllowNegativeBidders"] = false,
+		["SubZeroBidding"] = false,
+	},
+	["defaults"] = {
+		["BidTimerSize"] = 1,
+		["HistoryLimit"] = 2500,
+		["HideChangeLogs"] = 0,
+		["MonDKPScaleSize"] = 1,
+		["supressNotifications"] = false,
+		["TooltipHistoryCount"] = 15,
+		["DKPHistoryLimit"] = 2500,
+	},
+}
+MonDKP_Loot = {
+	["seed"] = 0,
+}
+MonDKP_DKPTable = {
+	["seed"] = 0,
+}
+MonDKP_DKPHistory = {
+	["seed"] = 0,
+}
+MonDKP_MinBids = {
+}
+MonDKP_Whitelist = {
+}
+MonDKP_Standby = {
+}
